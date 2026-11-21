@@ -48,6 +48,7 @@ Playwright needs to download the Chromium browser binary it controls. Run:
 
 ```bash
 playwright install chromium
+python3 -m playwright install-deps chromium
 ```
 
 > If you get a "browser not found" or `executable doesn't exist` error later, this step was missed or ran in a different Python environment.
